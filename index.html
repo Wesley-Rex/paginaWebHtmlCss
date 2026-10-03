@@ -18,6 +18,13 @@
     }
 
     /* Cabecera */
+   header {
+      background-color: #2d5a27; /* Verde bosque */
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
 
 
     header h1 {
@@ -30,6 +37,13 @@
       margin-top: 10px;
     }
 
+   //* nav a {
+      color: #e2f0d9;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }*//
 
     nav a:hover {
       color: #ffeb3b; /* Amarillo al pasar el ratón */
@@ -37,7 +51,11 @@
     }
 
     /* Contenido principal centrado */
-
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
 
     /* Secciones */
     section {
@@ -59,10 +77,20 @@
     }
 
     /* Estilos de la tarjeta de artículo e imagen */
-
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+      margin: 15px 0;
+    }
 
     /* Resaltado de texto */
-
+    mark {
+      background-color: #fff176;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
 
     /* Listas */
     ul {
